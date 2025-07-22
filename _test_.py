@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd
-from ingestion import DataIngestion, DataPreprocessing, AnalysisEngine  # Replace `your_module` with the actual module name
+from AI_Employee import DataIngestion, DataPreprocessing, AnalysisEngine  # Replace `your_module` with the actual module name
 
 class TestAIEmployee(unittest.TestCase):
     def test_load_csv(self):
